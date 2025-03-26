@@ -42,8 +42,8 @@ Deployment: Streamlit for dashboard visualization
 
 Clone the repository:
 
-git clone https://github.com/your-username/booking-analysis-dashboard.git
-cd booking-analysis-dashboard
+git clone https://github.com/prateek-1211/omnify.git
+cd omnify
 
 Install dependencies:
 
@@ -51,10 +51,12 @@ pip install -r requirements.txt
 
 Run the Streamlit application:
 
-streamlit run app.py
+streamlit run dashboard.py
 
 🐞 Issues & Fixes
 
 JSON Serialization Issue: Resolved by converting Pandas Period objects to strings before visualization.
 
 Incorrect Time Slot Formatting: Handled using errors='coerce' to prevent script failures.
+
+Video Link : https://drive.google.com/file/d/1NT89G3ZJUt_FoJRV85D-h85P9W-RQtGy/view?usp=sharing
